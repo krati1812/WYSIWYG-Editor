@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Static Top Navbar Example for Bootstrap</title>
+		    <link href="css/font-awesome.min.css" rel="stylesheet">
+			    <link href="css/style.css" rel="stylesheet">
+	
+	
+		 </head>
+	 
+
+  <body>
+  <div class="wrap">
+
+   <div class="toolbar">
+      <button id="bold" title="Bold (Ctrl+B)"><i class="fa fa-bold"></i></button>
+      <button id="italic" title="Italic (Ctrl+I)"><i class="fa fa-italic"></i></button>
+      <button id="underline" title="Underline (Ctrl+U)"><i class="fa fa-underline"></i></button>
+      <div class="wrapdiv">
+      <button id="selectfontcolor" title="select font color"><i class="fa fa-font"></i><span class="fcolor"></span></button>
+<div class="fore-color">
+        <span class="fr-arrow" style="margin-left: -5px;"></span>
+    <a href="#" data-command="forecolor" data-value="#000000" style="background-color:#000000;"></a>
+    <a href="#" data-command="forecolor" data-value="#00306a" style="background-color:#00306a;"></a>
+    <a href="#" data-command="forecolor" data-value="#0072ff" style="background-color:#0072ff;"></a>
+    <a href="#" data-command="forecolor" data-value="#00bdff" style="background-color:#00bdff;"></a>
+    <a href="#" data-command="forecolor" data-value="#de53e4" style="background-color:#de53e4;"></a>
+    <a href="#" data-command="forecolor" data-value="#de4848" style="background-color:#de4848;"></a>
+    <a href="#" data-command="forecolor" data-value="#ea5c23" style="background-color:#ea5c23;"></a>
+    <a href="#" data-command="forecolor" data-value="#eadf23" style="background-color:#eadf23;"></a>
+    <a href="#" data-command="forecolor" data-value="#0066FF" style="background-color:#0066FF;"></a>
+      <a href="#" data-command="forecolor" data-value="#eecded" style="background-color:#eecded;"></a>
+        <a href="#" data-command="forecolor" data-value="#b1ffac" style="background-color:#b1ffac;"></a>
+    <a href="#" data-command="forecolor" data-value="#faff7e" style="background-color:#faff7e;"></a>
+    </div>
+      </div>
+
+        <div class="wrapdiv">
+      <button id="highlightcolor" title="highlight-color">
+      <span class="back_color"></span>
+      <i class="fa fa-font"></i>
+      </button>
+        <div class="back-color">
+        <span class="fr-arrow" style="margin-left: -5px;"></span>
+    <a href="#" data-command="backcolor" data-value="#000000" style="background-color:#000000;"></a>
+    <a href="#" data-command="backcolor" data-value="#00306a" style="background-color:#00306a;"></a>
+    <a href="#" data-command="backcolor" data-value="#0072ff" style="background-color:#0072ff;"></a>
+    <a href="#" data-command="backcolor" data-value="#00bdff" style="background-color:#00bdff;"></a>
+    <a href="#" data-command="backcolor" data-value="#de53e4" style="background-color:#de53e4;"></a>
+    <a href="#" data-command="backcolor" data-value="#de4848" style="background-color:#de4848;"></a>
+    <a href="#" data-command="backcolor" data-value="#ea5c23" style="background-color:#ea5c23;"></a>
+    <a href="#" data-command="backcolor" data-value="#eadf23" style="background-color:#eadf23;"></a>
+    <a href="#" data-command="backcolor" data-value="#0066FF" style="background-color:#0066FF;"></a>
+    <a href="#" data-command="backcolor" data-value="#eecded" style="background-color:#eecded;"></a>
+   <a href="#" data-command="backcolor" data-value="#faff7e" style="background-color:#faff7e;"></a>
+    <a href="#" data-command="backcolor" data-value="#fcfcfc" style="background-color:#fcfcfc;"></a>
+   
+    </div>
+      </div>
+
+      
+
+      <select name="fonts" id="fonts" title="Font Family">
+         <option value="Arial" selected>Arial</option>
+         <option value="Georgia">Georgia</option>
+         <option value="Tahoma">Tahoma</option>
+         <option value="Times New Roman">Times New Roman</option>
+         <option value="Verdana">Verdana</option>
+         <option value="Impact">Impact</option>
+         <option value="Courier New">Courier New</option>
+      </select>
+	  
+      <select name="size" id="size" title="Font Size">
+         <option value="8">8</option>
+         <option value="10">10</option>
+         <option value="12">12</option>
+         <option value="14">14</option>
+         <option value="16" selected>16</option>
+         <option value="18">18</option>
+         <option value="20">20</option>
+         <option value="22">22</option>
+         <option value="24">24</option>
+         <option value="26">26</option>
+      </select>
+     
+   <div class="wrapdiv">
+      
+        <button id="selectemo" title="insert emog"><img src="emog/3.png" /></button>
+    <div class="emoarea">
+      <span class="fr-arrow" style="margin-left: -5px;"></span>
+
+    <img data-command="insertImage" data-value="emog/grinning-face.png" src="emog/grinning-face.png" />
+    <img data-command="insertImage" data-value="emog/grinning-squinting-face.png" src="emog/grinning-squinting-face.png" />
+          <img data-command="insertImage" data-value="emog/face-with-tears-of-joy.png" src="emog/face-with-tears-of-joy.png" />
+       <img data-command="insertImage" data-value="emog/grinning-face-with-sweat.png" src="emog/grinning-face-with-sweat.png" />
+
+             <img data-command="insertImage" data-value="emog/smiling-face-with-3-hearts.png" src="emog/smiling-face-with-3-hearts.png" />
+     <img data-command="insertImage" data-value="emog/smiling-face-with-heart-eyes.png" src="emog/smiling-face-with-heart-eyes.png" />
+       <img data-command="insertImage" data-value="emog/kissing-face-with-closed-eyes.png" src="emog/kissing-face-with-closed-eyes.png" />
+         <img data-command="insertImage" data-value="emog/face-blowing-a-kiss.png" src="emog/face-blowing-a-kiss.png" />
+
+
+         
+             <img data-command="insertImage" data-value="emog/shushing-face.png" src="emog/shushing-face.png" />
+     <img data-command="insertImage" data-value="emog/hugging-face.png" src="emog/hugging-face.png" />
+       <img data-command="insertImage" data-value="emog/thinking-face.png" src="emog/thinking-face.png" />
+         <img data-command="insertImage" data-value="emog/winking-face.png" src="emog/winking-face.png" />
+
+
+         
+             <img data-command="insertImage" data-value="emog/face-savoring-food.png" src="emog/face-savoring-food.png" />
+     <img data-command="insertImage" data-value="emog/face-with-tongue.png" src="emog/face-with-tongue.png" />
+       <img data-command="insertImage" data-value="emog/flushed-face.png" src="emog/flushed-face.png" />
+         <img data-command="insertImage" data-value="emog/face-with-open-mouth.png" src="emog/face-with-open-mouth.png" />
+  </div>
+      </div>
+
+        
+
+    <button id="insert-image" data-command='insertimage' data-img='img' title="insert image"><i class='fa fa-image'></i></button>
+ 
+      <button id="align-left" title="Left"><i class="fa fa-align-left"></i></button>
+     
+  
+      <button id="align-center" title="Center"><i class="fa fa-align-center"></i></button>
+      <button id="align-right" title="Right"><i class="fa fa-align-right"></i></button>
+      <button id="list-ul" title="Unordered List"><i class="fa fa-list-ul"></i></button>
+      <button id="list-ol" title="Ordered List"><i class="fa fa-list-ol"></i></button>
+        <button id="create-link" title="Create Link"><i class="fa fa-link"></i></button>
+        <button id="delete-link" title="Unlink"><i class="fa fa-unlink"></i></button>
+
+       <img id="img" class="heartbtn" title="insert heart" src="emog/heart.png" />
+
+         <button id="undo" data-command='undo' title="Undo"><i class='fa fa-undo'></i></button>
+  <button id="redo" data-command='redo' title="Redo"><i class='fa fa-repeat'></i></button>
+  <div class="popup">
+    <button id="Button1" title="Left" class="imgleft"><i class="imgleft fa fa-align-left"></i></button>
+     
+  
+      <button id="Button2" title="Center"><i class="img-mid fa fa-align-center"></i></button>
+      <button id="Button3" title="Right"><i class="img-right fa fa-align-right"></i></button>
+    
+      
+</div>
+   </div>
+   <div class="editor" contenteditable="true"></div>
+   <div id="content"></div>
+   <button class="getText btn-primary" title="Get Text File">GetText</button>
+
+      
+	  <section id="previewshow" class="getcontent">
+    </section>
+</div>
+
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+
+  <script src="js/jspdf.min.js"></script>
+  
+<script>
+    $(window).on("load", function () {
+        $('#bold').on('click', function () {
+            document.execCommand('bold', false, null);
+        });
+
+        $('#italic').on('click', function () {
+            document.execCommand('italic', false, null);
+        });
+
+        $('#underline').on('click', function () {
+            document.execCommand('underline', false, null);
+        });
+
+        $('#create-link').on('click', function () {
+
+            document.execCommand('createLink', false, prompt('Enter URL'));
+
+        });
+        $('#delete-link').on('click', function () {
+
+            document.execCommand('unLink', false, null);
+
+        });
+      
+
+        $('#align-left').on('click', function () {
+            document.execCommand('justifyLeft', false, null);
+        });
+
+        $('#align-center').on('click', function () {
+            document.execCommand('justifyCenter', false, null);
+        });
+
+        $('#align-right').on('click', function () {
+            document.execCommand('justifyRight', false, null);
+        });
+
+        $('#list-ul').on('click', function () {
+            document.execCommand('insertUnorderedList', false, null);
+        });
+
+        $('#list-ol').on('click', function () {
+            document.execCommand('insertOrderedList', false, null);
+        });
+
+        $('#fonts').on('change', function () {
+            var font = $(this).val();
+            document.execCommand('fontName', false, font);
+        });
+
+        $('#size').on('change', function () {
+            var size = $(this).val();
+            $('.editor').css('fontSize', size + 'px');
+        });
+
+        $('.fore-color a').click(function (e) {
+            document.execCommand($(this).data('command'), false, $(this).data('value'));
+        });
+		
+        $('.back-color a').click(function (e) {
+            document.execCommand($(this).data('command'), false, $(this).data('value'));
+        });
+
+        
+
+ 
+        $("#selectemo").click(function () {
+            $(".emoarea").toggle();
+        });
+		
+		
+		$('.emoarea img').click(function (e) {
+ var selfa = $(this);
+    var imageUrl = selfa.attr('src');
+
+document.execCommand('insertHTML', false, '<span class="emog" style="background-image: url(' + imageUrl + ');" contenteditable="false"></span>');
+	 
+		});
+		
+		// to insert heart 
+		
+  $('#img').on('click', function () {
+            var heartimage = $(this);
+    var heartUrl = heartimage.attr('src');
+
+document.execCommand('insertHTML', false, '<span class="heart" style="background-image: url(' + heartUrl + ');" contenteditable="false"></span>');
+
+ });
+
+        $("#selectfontcolor").click(function () {
+            $(".fore-color").toggle();
+        });
+
+        $('#insert-image').click(function () {
+            url = prompt('Enter the link here: ', 'http:\/\/');
+			document.execCommand('insertHTML', false, '<span class="divimg" style="background-image: url(' + url + ');" contenteditable="false"></span>');
+	  
+           
+
+
+        });
+        //The cool thing about the delegate method is that it will attach this event handler to any img tag in the body, present or future. So even images inserted as part of the editing process with get wired up.
+        $(".editor").delegate("img", "click", function (evt) {
+       
+      
+		// we can write image pop-up code here
+          
+        });
+		
+	
+		$("#highlightcolor").click(function () {
+            $(".back-color").toggle();
+        });
+
+        $("#undo").click(function () {
+            document.execCommand($(this).data('command'), false, null);
+        });
+		
+        $("#redo").click(function () {
+            document.execCommand($(this).data('command'), false, null);
+        });
+
+
+        $('.editor').on(function (e, editor) {
+            $('#preview').html(editor.html.get());
+        });
+
+
+        var doc = new jsPDF();
+        var specialElementHandlers = {
+            '#content': function (element, renderer) {
+                return true;
+            }
+        };
+		
+		    $('#pdfa').click(function () {
+			savePDF();
+			
+            doc.fromHTML($('.editor').html(), 15, 15, {
+       
+            
+                'elementHandlers': specialElementHandlers
+            });
+
+           
+           
+            doc.save('demo.pdf');
+        });
+
+
+    });
+</script>
+
+
+<script>    
+
+
+    // For preview 
+
+		$('.getText').click(function () {
+            $('#previewshow').html($('.editor').html());
+        });
+    
+    </script>
+	
+	<script>
+	
+	</script>
+
+
+	    </body>
+
+
+</html>
