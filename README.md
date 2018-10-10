@@ -1,5 +1,8 @@
 # WYSIWYG-Editor
 It's a simple WYSIWYG editor without using any third-party library to create a simple post.
+
+What You See Is What You Get - Text Editor
+
 Created by: Krati Agarwal
 
 Features:
@@ -13,4 +16,4 @@ c. Underline
 5. Ability to preview the post.
 6. Ability to add Emojis to the editor.
 7. Ability to add heart to the editor.
-8. Ability to resize Image size.
+8. Ability to resize an image.
